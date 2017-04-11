@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Carny;
+}
+
+#border {
+    width: 400px;
+    height: 398px;
+    border: 34px solid;
+    position: absolute;
+    left: 420px;
+    top: 14px;
+    animation: myColors 7s infinite alternate;
+}
+
+#background {
+    position: relative;
+    opacity: 0.7;
+    z-index: -4;
+    width: 100%;
+}
+
+#textone{
+position: absolute;
+left: 130%;
+top: -12%;
+width: 80%;
+height: 80%;
+font-size: 64px;
+font-family: Carny;
+font-weight: bolder;
+text-shadow: 4px 4px 4px black;
+}
+
+#texttwo{
+position: absolute;
+right: 110%;
+top: -12%;
+width: 80%;
+height: 80%;
+font-size: 64px;
+font-family: Carny;
+font-weight: bolder;
+text-shadow: 4px 4px 4px black;
+}
+
+#pone{
+position: absolute;
+left: 120%;
+top: 28%;
+width: 80%;
+height: 80%;
+}
+
+#ptwo{
+position: absolute;
+right: 120%;
+top: 22%;
+width: 80%;
+height: 80%;
+
+}
+
+table {
+    width: 400px;
+    height: 400px;
+    margin:  0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 14px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+/* button  {
+    position: relative;
+    top: 100px;
+    left: 600px;
+
+} */
+
+@keyframes myColors {
+  0% {color: black; }
+  10% {color: aqua;}
+  20% {color: deeppink;}
+  30% {color: purple;}
+  40% {color: orange;}
+  50% {color: yellow;}
+  60% {color: lightblue;}
+  70% {color: lightgreen;}
+  80% {color: red;}
+  90% {color: hotpink;}
+  100% {color: mediumpurple;}
+
+}
+
+  @font-face {
+  font-family: "Carny";
+    src: url("Carny.ttf")
+}
