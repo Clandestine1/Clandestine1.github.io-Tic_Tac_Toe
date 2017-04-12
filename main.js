@@ -121,6 +121,9 @@ if(square1.innerHTML === 'X' && square2.innerHTML === 'X' && square3.innerHTML =
 	alert('X wins');
 }
 
+if(square1.innerHTML === 'O' && square2.innerHTML === 'O' && square3.innerHTML === 'O'){
+	alert('O wins');
+}
 
 //Make if else statement that sets the board with var 'X' on even turns and var 'O' on odd turns.
 //Make win condition three like variables in a row
